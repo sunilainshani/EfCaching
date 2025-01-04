@@ -1,4 +1,4 @@
-namespace EfApp.Models;
+namespace EfCachingApp.Models;
 
 public class ErrorViewModel
 {

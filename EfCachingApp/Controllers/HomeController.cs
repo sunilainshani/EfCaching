@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using EfApp.Models;
+using EfCachingApp.Models;
 
-namespace EfApp.Controllers;
+namespace EfCachingApp.Controllers;
 
 public class HomeController : Controller
 {

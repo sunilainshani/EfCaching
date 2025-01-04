@@ -7,17 +7,17 @@ namespace MyApp.Namespace
     [ApiController]
     public class ProductController : ControllerBase
     {
-
+        [HttpGet]
         public string Get()
         {
-            return "Hi Sunil!";
+            return "Hello Sunil!";
         }
 
-        [HttpGet("{ProductId}")]
-        public string GetProductData(int ProductId)
+        [HttpGet]
+        [Route("GetProductData")]
+        public string GetProductData()
         {
-            return "Hi Sunil - product id is >>  " + ProductId;
+            return "This is inside GetPrdocutData";
         }
-
     }
 }
