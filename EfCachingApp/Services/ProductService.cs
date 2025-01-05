@@ -16,7 +16,8 @@ public class ProductService
     }
     public List<Product> GetAllProducts()
     { 
-        return _dbContext.Product.ToList();
+        //return _dbContext.Product.ToList();
+        return null;
     }
 
 

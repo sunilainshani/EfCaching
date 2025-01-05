@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-namespace backend
+namespace EfCaching
 {
     public class Program
     {
